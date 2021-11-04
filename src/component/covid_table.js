@@ -35,6 +35,8 @@ function COVID() {
       <th scope="col">Deaths</th>
       <th scope="col">active</th>
       <th scope="col">updated</th>
+        <th scope="col">updated</th>
+        
     </tr>
   </thead>
   <tbody>
@@ -49,6 +51,7 @@ function COVID() {
       <td>{curElem.deaths}</td>
       <td>{curElem.active}</td>
       <td>{curElem.lastupdatedtime}</td>
+     <td>{curElem.lastupdatedtime}</td>
     </tr>
          )
        })
